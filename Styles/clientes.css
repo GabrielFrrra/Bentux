@@ -1,0 +1,67 @@
+.clientes {
+    display: grid;
+    flex-direction: column;
+    background: var(--cor-fundo3);
+    }
+
+.clientes__titulo {
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto2);
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    padding: 140px 219px 24px 219px;
+}
+
+.cliente__fundo__titulo {
+    display: inline-block;
+    position: relative;
+    background-image: url(/imagem/pincel1.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 0 4px;
+    z-index: 0;
+}
+
+.clientes__texto {
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto2);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 30px;
+    letter-spacing: -2%;
+    padding: 24px 599px 60px 599px;
+}
+
+.clientes__carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+.swiper {
+    width: 80%;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.swiper-pagination {
+    display: none;
+    position: initial;
+    margin: auto;
+}
+
+.swiper-slide {
+    flex: 0 0 auto;
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

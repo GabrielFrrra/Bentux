@@ -1,0 +1,30 @@
+main {
+    margin: 0;
+    background-image: url(/imagem/bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 13.875em;
+    background-color: rgba(4, 56, 115, 0.1);
+    backdrop-filter: blur(0.25em);
+    box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho-item {
+    text-decoration: none;
+    gap: 1.25em;
+    padding-right: 2.375em;
+    font-family: var(--fonte-primeira);
+    font-size: 1em;
+    color: var(--cor-texto);
+    width: 3.125em;
+    height: 1.4375em;
+}

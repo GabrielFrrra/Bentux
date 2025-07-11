@@ -1,0 +1,59 @@
+.extra {
+    height: 60vh;
+    background-color: var(--cor-fundo);
+    justify-content: center;
+}
+
+.extra__titulo {
+    text-align: center;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 72px;
+    padding: 140px 0 24px 0;
+    
+}
+
+.extra__fundo_titulo {
+    display: inline-block;
+    position:relative;
+    background-image: url(/imagem/pincel3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0 4px;
+    z-index: 0;
+}
+
+.extra__texto {
+    text-align: center;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto);
+    font-weight: 400;
+    font-size: 18px;
+    margin-inline: 428px;
+    padding-bottom: 60px;
+    line-height: 30px;
+}
+
+.extra__botao-container {
+    display: flex;
+    justify-content: center;
+}
+
+.extra__botao {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    gap: 1.25em;
+    text-decoration: none;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto);
+    border: 0.125em solid var(--cor-botao);
+    border-radius: 8px;
+    background-color: var(--cor-botao);
+    font-weight: 700;
+    font-size: 18px;
+    font-style: bold;
+}
