@@ -1,0 +1,130 @@
+.contato {
+    background-image: url(/imagem/bg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 220px;
+}
+
+.titulo__contato {
+    font-family: var(--fonte-segunda);
+    font-size: 64px;
+    font-weight: 700;
+    font-style: bold;
+    color: var(--cor-texto);
+    padding-bottom: 24px;
+}
+
+.fundo__titulo_contato {
+    display: inline-block;
+    position:relative;
+    background-image: url(/imagem/pincel4.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+.texto__contato {
+    font-family: var(--fonte-segunda);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-texto);
+    width: 347px;
+    height: 90px;
+    letter-spacing: -2%;
+    line-height: 30px;
+    padding-bottom: 24px;
+}
+
+.contato__contato1 {
+    font-family: var(--fonte-segunda);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-texto);
+    padding-bottom: 20px;
+}
+
+.contato__contato2 {
+    font-family: var(--fonte-segunda);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-texto);
+    line-height: 5px;
+    padding-bottom: 100px;
+}
+
+.contato__link-container {
+    padding-bottom: 100px;
+}
+
+.contato__link {
+    text-decoration: none;
+    font-family: var(--fonte-segunda);
+    font-size: 18px;
+    font-weight: 700;
+    font-style: bold;
+    color: var(--cor-texto);
+    border: 0.125em solid var(--cor-botao2);
+    border-radius: 0.5em;
+    background-color: var(--cor-botao2);
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.contato__redes {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .contato {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titulo__contato {
+        padding: 78px 40px 0 40px;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+
+    .texto__contato {
+        text-align: center;
+        line-height: 30px;
+        padding: 15px;
+    }
+
+    .contato__contato1 {
+        text-align: center;
+    }
+
+    .contato__contato2 {
+        text-align: center;
+    }
+
+    .contato__link-container {
+        align-items: center;
+        padding: 25px;
+        padding-bottom: 45px;
+    }
+
+    .contato__redes-container {
+        align-items: center;
+        margin-right: 0;
+        padding-left: 145px;
+        padding-right: 120px;
+        padding-bottom: 82px;
+    }
+
+    .contato__redes {
+        margin: 5px;
+    }
+}
