@@ -1,2 +1,0 @@
-# Bentux
-Projeto site Bentux
