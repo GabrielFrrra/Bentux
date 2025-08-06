@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bentux</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <video autoplay muted loop playsinline id="bg-video">
+            <source src="/assets/Banner.mov" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="overlay"></label>
+        <header>
+            <div class="logo"><img src="/imagem/Logo.png"></div>
+            <label for="menu-toggle" class="menu-icon"><img src="/imagem/menu.png"></label>
+
+            <nav class="menu-desktop navbar">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#clientes">Clientes</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <nav class="menu">
+            <label for="menu-toggle" class="close-icon">&times;</label>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        
+        
+        <section class="apresentacao">
+            <section class="apresentacao__conteudo">
+                <h1 class="apresentacao__conteudo__titulo" >TI para eventos.
+                    Simples e segura.
+                    Experiência que inova.</h1>
+                <p class="apresentacao__conteudo__texto">Soluções completas em TI para eventos presenciais, híbridos e online.</p>
+                
+                <div class="apresentacao__links">
+                    <a class="apresentacao__links__navegacao_solido hvr-fade" href="https://api.whatsapp.com/send/?phone=555191453126&text&type=phone_number&app_absent=0">Fale com um especialista. →</a>
+                    <a class="apresentacao__links__navegacao" href="#serviços">Conheça nossos serviços</a>
+                </div>
+
+                <div>
+                    <a href="https://api.whatsapp.com/send/?phone=555191453126&text&type=phone_number&app_absent=0" class="apresentacao__links__icone btn-whatsapp-pulse">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <section id="sobre" class="sobre">
+
+        <div class="sobre__texto">
+            <h2 class="sobre__texto_titulo"><span class="sobre__fundo__texto">+24 anos</span> de confiança, agilidade e inovação.</h2>
+
+            <video autoplay muted loop playsinline id="sobre-video-mobile" class="sobre__video__mobile">
+                <source src="/assets/Sobre nós.mp4" type="video/mp4">
+            </video>
+
+            <p class="sobre__texto__descricao">Há 24 anos no mercado, entregamos soluções de TI para eventos como congressos, feiras, espetáculos e shows, tanto híbridos quanto 100% online.</p>
+
+            <p class="sobre__texto__descricao">Contamos com plataformas exclusivas para transmissão ao vivo e tradução simultânea. Também somos especialistas em redes, link de IVVnternet, telefonia VoIP e locação de equipamentos.</p>
+
+            <p class="sobre__texto__descricao">Responsabilidade, agilidade e inovação estão no nosso DNA. Estamos sempre atualizados com as últimas tecnologias para garantir a melhor experiência nos eventos que atendemos.</p>
+            <div class="sobre__link__container">
+                <a href="https://api.whatsapp.com/send/?phone=555191453126&text&type=phone_number&app_absent=0" class="sobre__link hvr-fade2">Solicite um orçamento personalizado →</a>
+            </div>
+        </div>
+
+        <div>
+            <video autoplay muted loop playsinline id="sobre-video" class="sobre__video">
+                <source src="/assets/Sobre nós.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <section id="serviços" class="solucoes">
+        <div class="solucoes__cards">  
+            <div class="card__disfarce">
+                <h2 class="solucoes__conteudo__titulo">Conheça Nossas Soluções</h2>
+                <p class="solucoes__conteudo__texto">De eventos presenciais a 100% online, nossa equipe garante performance, estabilidade e uma experiência memorável para organizadores e participantes.</p>
+                <div class="solucoes__conteudo__link-container">
+                    <a href="https://api.whatsapp.com/send/?phone=555191453126&text&type=phone_number&app_absent=0" class="solucoes__conteudo__link hvr-fade">Fale com um especialista →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3 class="card__titulo"><img src="/imagem/bentuxon.png" alt="Icone BentuxON" class="card__titulo__imagem"> BentuxON</h3>
+                <h4 class="card__subtitulo">Transmissão ao vivo</h4>
+                <p class="card__texto">Plataforma exclusiva para eventos online ou híbridos.
+                Interface intuitiva, transmissão estável e suporte técnico completo. Ao vivo, em alta qualidade e com segurança.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card__titulo"><img src="/imagem/bentuxvox.png" alt="Icone BentuxVOX" class="card__titulo__imagem"> BentuxVOX</h3>
+                <h4 class="card__subtitulo">Tradução simultânea</h4>
+                <p class="card__texto">Dê voz ao seu evento. Com tecnologia exclusiva para tradução simultânea, oferecemos palestras multilíngues ou silent talks para o seu público, presencial ou online.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card__titulo"><img src="/imagem/bentuxspot.png" alt="Icone BentuxSpot" class="card__titulo__imagem"> BentuxSpot</h3>
+                <h4 class="card__subtitulo">+Mapa de Calor</h4>
+                <p class="card__texto">Internet gratuita para participantes e dados valiosos para organizadores. Captação de leads, cadastro de visitantes e inteligência estratégica com mapas de circulação.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card__titulo"><img src="/imagem/bentuxon2.png" alt="Icone BentuxON" class="card__titulo__imagem"> BentuxON</h3>
+                <h4 class="card__subtitulo">Comunicação</h4>
+                <p class="card__texto">Comunicação sem fronteiras e com economia.
+                Ligue e receba chamadas usando a internet com qualidade profissional.</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card__titulo"><img src="/imagem/tecnologia.png" class="card__titulo__imagem"> Tecnologia</h3>
+                <h4 class="card__subtitulo">Locação de equipamentos</h4>
+                <p class="card__texto">Garantia de tecnologia e funcionamento. Notebooks, impressoras, coletores de dados, tudo compatível e com suporte técnico incluso.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="funcao">
+        <h2 class="funcao__titulo">Como <span class="funcao__fundo__titulo">Funciona?</span></h2>
+        <p class="funcao__texto">Tecnologia descomplicada para eventos mais eficientes. Com um processo claro em três etapas, cuidamos de toda a parte técnica para que você tenha tranquilidade do início ao fim. Simples, confiável e feito sob medida para o seu evento.</p>
+        <div class="funcao__itens">
+            <div class="funcao__itens__item">
+                <img src="/imagem/ent e planej.png" alt="Entendimento e Planejamento" class="funcao__item__imagem">
+                <h3 class="funcao__itens__titulo">Entendimento e Planejamento</h3>
+                <p class="funcao__itens__texto">Entramos em contato para entender seu evento, espaço e necessidades técnicas. A partir disso, sugerimos as soluções mais eficazes e montamos um plano sob medida com prazos e valores bem definidos.</p>
+            </div>
+
+            <div class="funcao__itens__item">
+                <img src="/imagem/impl teste.png" alt="Implantação e Testes" class="funcao__item__imagem">
+                <h3 class="funcao__itens__titulo">Implantação e Testes</h3>
+                <p class="funcao__itens__texto">Nossa equipe técnica realiza a instalação, testes de conectividade, configurações e ajustes para garantir que tudo funcione perfeitamente antes do evento começar.</p>
+            </div>
+
+            <div class="funcao__itens__item">
+                <img src="/imagem/sup evento.png" alt="Suporte durante o Evento" class="funcao__item__imagem">
+                <h3 class="funcao__itens__titulo">Suporte durante o Evento</h3>
+                <p class="funcao__itens__texto">Durante todo o evento, nossa equipe acompanha e oferece suporte em tempo real. Monitoramos a rede, os sistemas e os equipamentos para que você foque no que realmente importa: fazer acontecer.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clientes" class="clientes">
+        <h2 class="clientes__titulo">Confiança de quem entende de <span class="cliente__fundo__titulo">eventos</span></h2>
+        <p class="clientes__texto">Empresas que apostam em inovação já contam com nossas soluções para entregar eventos mais conectados, seguros e eficientes.</p>
+        
+        <div class="swiper">
+            <div class="swiper-wrapper marquee marquee--8">
+                <div class="swiper-slide">
+                    <img class="marquee__item" src="/imagem/logo1.svg" alt="Logo 1">
+                    <img class="marquee__item" src="/imagem/logo2.svg" alt="Logo 2">
+                    <img class="marquee__item" src="/imagem/logo3.svg" alt="Logo 3">
+                    <img class="marquee__item" src="/imagem/logo4.svg" alt="Logo 4">
+                    <img class="marquee__item" src="/imagem/logo5.svg" alt="Logo 5"> 
+                    <img class="marquee__item" src="/imagem/logo6.svg" alt="Logo 6">
+                    <img class="marquee__item" src="/imagem/logo7.svg" alt="Logo 7">
+                    <img class="marquee__item" src="/imagem/logo4.svg" alt="Logo 4">
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="extra">
+        <h2 class="extra__titulo">Confiança de quem entende de <span class="extra__fundo_titulo">eventos</span></h2>
+        <p class="extra__texto">Empresas que apostam em inovação já contam com nossas soluções para entregar eventos mais conectados, seguros e eficientes.</p>
+        <div class="extra__botao-container">
+            <a href="#" class="extra__botao hvr-fade">Botão Exemplo →</a>
+        </div>
+    </section>
+
+    <section class="faq">
+
+            <h2>Perguntas Frequentes</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Lorem ipsum dolor sit amet?</span>
+                    <span class="icon">×</span>
+                </button>
+                <div class="faq-answer active">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar elementum tempus hac tellus libero accumsan.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Lorem ipsum dolor sit amet?</span>
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Lorem ipsum dolor sit amet?</span>
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Lorem ipsum dolor sit amet?</span>
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Lorem ipsum dolor sit amet?</span>
+                    <span class="icon">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                </div>
+            </div>
+            
+            <!-- Adicione mais .faq-item conforme necessário -->
+        
+    </section>
+
+    <section>
+        <div class="contato-container">
+        <video autoplay muted loop playsinline id="ctt-video" class="ctt__video">
+            <source src="/assets/Contato.mov" type="video/mp4">
+        </video>
+        <section  id="contato" class="contato">
+            <h2 class="titulo__contato">Fale com a <span class="fundo__titulo_contato">Bentux</span></h2>
+            <p class="texto__contato">Pronto para inovar no seu evento com tecnologia de ponta?  Preencha o formulário ou fale direto com a gente!</p>
+            <p class="contato__contato1">(51) 9145-3126</p>
+            <p class="contato__contato2">bento@bentux.com.br</p>
+            <div class="contato__link-container">
+                <a class="contato__link hvr-fade2" href="https://api.whatsapp.com/send/?phone=555191453126&text&type=phone_number&app_absent=0">Conversar com um especialista →</a>
+            </div>
+            <div class="contato__redes-container">
+                <a href="https://www.facebook.com/?locale=pt_BR"><img src="/imagem/facebook.svg" alt="Icone Facebook"  class="contato__redes"></a>
+                <a href="https://www.instagram.com"><img src="/imagem/instagram.svg" alt="Icone Instagram"  class="contato__redes"></a>
+                <a href="https://br.linkedin.com"><img src="/imagem/linkedin.svg" alt="Icone Linkedin"  class="contato__redes"></a>
+            </div>
+        </section>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+        <div class="footer">
+            <h2 class="footer__titulo">Se inscreva e não perca nenhuma novidade!</h2>
+            <p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipiscing elit phasellus amet dui quam vitae quis leo.</p>
+
+            <form class="caixa__email">
+                <input type="email" class="banner__email" placeholder="Digite seu e-mail aqui">
+            </form>
+
+            <div class="footer__social-container">
+                <a href="https://www.facebook.com/?locale=pt_BR"><img src="/imagem/facebook.svg" alt="Facebook" class="footer__social"></a>
+                <a href="https://www.instagram.com"><img src="/imagem/instagram.svg" alt="Instagram" class="footer__social"></a>
+                <a href="https://br.linkedin.com"><img src="/imagem/linkedin.svg" alt="LinkedIn" class="footer__social"></a>
+            </div>
+
+            <div class="footer__rodape">
+                <p class="rodape__texto">2025 Bentux | Todos os direitos reservados</p>
+            </div>
+        </div>
+    
+    <script>
+        const questions = document.querySelectorAll('.faq-question');
+
+        questions.forEach(button => {
+            button.addEventListener('click', () => {
+            const faqItem = button.parentElement;
+            const answer = faqItem.querySelector('.faq-answer');
+            const icon = button.querySelector('.icon');
+
+            const isActive = answer.classList.contains('active');
+
+            // Fecha todos os outros
+            document.querySelectorAll('.faq-answer').forEach(ans => ans.classList.remove('active'));
+            document.querySelectorAll('.faq-question .icon').forEach(i => i.textContent = '+');
+
+            if (!isActive) {
+                answer.classList.add('active');
+                icon.textContent = '×';
+            }
+            });
+        });
+    </script>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const destino = document.querySelector(this.getAttribute('href'));
+            destino.scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+    </script>
+
+    <script>
+        document.querySelectorAll('.menu-link').forEach(link => {
+            link.addEventListener('click', () => {
+            document.getElementById('menu-toggle').checked = false;
+            });
+        });
+    </script>
+
+</body>
+</html>

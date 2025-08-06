@@ -1,0 +1,55 @@
+@import url(/Styles/cabecalho.css);
+@import url(/Styles/inicial.css);
+@import url(/Styles/sobre.css);
+@import url(/Styles/solucoes.css);
+@import url(/Styles/funcao.css);
+@import url(/Styles/clientes.css);
+@import url(/Styles/carrossel.css);
+@import url(/Styles/extra.css);
+@import url(/Styles/faq.css);
+@import url(/Styles/contato.css);
+@import url(/Styles/footer.css);
+
+
+.plus-jakarta-sans- {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+:root {
+    --fonte-primeira: "Plus Jakarta Sans", sans-serif;
+    --fonte-segunda: "Inter", sans-serif;
+    --fonte-terceira: "DM Sans", sans-serif;
+    --cor-texto: #ffffff;
+    --cor-texto2: #212529;
+    --cor-texto3: #000000;
+    --cor-texto4: #A6A6A6;
+    --cor-texto5: #6C6C72;
+    --cor-botao: #36BE83;
+    --cor-botao2: #043873;
+    --cor-botao3: #26875E;
+    --cor-botao4: #1663BD;
+    --cor-fundo: #043873;
+    --cor-fundo2: #fff;
+    --cor-fundo3: #EAFCFF;
+}
+
+* {
+  scroll-behavior: unset;
+}

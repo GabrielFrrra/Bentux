@@ -1,0 +1,142 @@
+.sobre {
+    background-color: #fff;
+    height: 100hv;
+    padding: 8.75em 13.75em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5.125em;
+}
+
+.sobre__texto {
+    padding: 42px 100px 42px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.sobre__texto_titulo {
+    font-size: 3.125em;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto2);
+    font-weight: 700;
+}
+
+.sobre__fundo__texto {
+    display: inline-block;
+    position: relative;
+    background-image: url(/imagem/pincel1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4px 12px;
+    z-index: 0;
+}
+
+.sobre__texto__descricao {
+    font-size: 1.125em;
+    font-weight: 500;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto2);
+}
+
+.sobre__link {
+    display: flex;
+    justify-content: center;
+    gap: 1.25em;
+    width: 25.625em;
+    text-align: center;
+    border-radius: 0.375em;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-family: var(--fonte-segunda);
+    background-color: var(--cor-botao2);
+}
+
+.sobre__video {
+    width: 663px;
+    height: 685px;
+}
+
+.sobre__video__mobile {
+    display: none;
+}
+
+.hvr-fade2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade2:hover, .hvr-fade2:focus, .hvr-fade2:active {
+  background-color: var(--cor-botao4);
+  color: var(--cor-fundo2);
+}
+
+@media screen and (max-width: 700px) {
+    .sobre {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre__texto {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        gap: 1em;
+    }
+
+   .sobre__video {
+        display: none;
+    }
+
+    .sobre__video__mobile {
+    display: grid;
+    }
+
+    .sobre__texto_titulo {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 800;
+        padding: 28px 18.5px;
+        font-style: bold;
+        text-transform: uppercase;
+        line-height: 30px;
+    }
+
+    .sobre__texto__descricao {
+        padding: 15px 25px;
+        color: var(--cor-texto5);
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .sobre__link__container {
+        display: grid;
+        align-items: center;
+        padding-inline: 15px;
+
+    }
+
+    .sobre__link {
+        padding: 20px 10px;
+        display: flex;
+        gap: 0;
+        width: 90%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}

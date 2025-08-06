@@ -1,0 +1,183 @@
+.extra {
+    background-image: url(/imagem/bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-color: var(--cor-fundo);
+    justify-content: center;
+}
+
+.extra__titulo {
+    text-align: center;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 72px;
+    padding: 140px 0 24px 0;
+    
+}
+
+.extra__fundo_titulo {
+    display: inline-block;
+    position:relative;
+    background-image: url(/imagem/pincel3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0 4px;
+    z-index: 0;
+}
+
+.extra__texto {
+    text-align: center;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto);
+    font-weight: 400;
+    font-size: 18px;
+    margin-inline: 428px;
+    padding-bottom: 60px;
+    line-height: 30px;
+}
+
+.extra__botao-container {
+    display: flex;
+    justify-content: center;
+}
+
+.extra__botao {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    gap: 1.25em;
+    text-decoration: none;
+    font-family: var(--fonte-segunda);
+    color: var(--cor-texto);
+    border-radius: 8px;
+    background-color: var(--cor-botao);
+    font-weight: 700;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: var(--cor-botao3);
+    color: var(--cor-fundo2);
+}
+
+.apresentacao__links__icone {
+    position: fixed;
+    display: flex;
+    width: 6.25em;
+    height: 6.25em;
+    bottom: 2.8125em;
+    right: 5.6875em;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.btn-whatsapp-pulse {
+	background: #25d366;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0;
+	height: 0;
+	padding: 35px;
+	text-decoration: none;
+	border-radius: 50%;
+	animation-name: pulse;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}
+
+.btn-whatsapp-pulse-border {
+	bottom: 120px;
+	right: 20px;
+	animation-play-state: paused;
+}
+
+.btn-whatsapp-pulse-border::before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	padding: 25px;
+	border: 5px solid #25d366;
+	opacity: 0.75;
+	animation-name: pulse-border;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse-border {
+	0% {
+		padding: 25px;
+		opacity: 0.75;
+	}
+	75% {
+		padding: 50px;
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+    .extra {
+        padding: 0;
+        background-image: none;
+        background-color: var(--cor-fundo);
+    }
+
+    .extra__titulo {
+        font-size: 36px;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 38px;
+        padding-top: 88px;
+        padding-inline: 30px;
+        padding-bottom: 0;
+    }
+
+    .extra__texto {
+        margin: 0;
+        padding: 15px 30px;
+        
+    }
+    
+    .extra__botao-container {
+        padding-inline:70px;
+        padding-bottom: 50px;
+    }
+}

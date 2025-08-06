@@ -1,0 +1,125 @@
+.funcao {
+    background-image: url(/imagem/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 140px 219px;
+}
+
+.funcao__titulo {
+    font-family: var(--fonte-segunda);
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--cor-texto2);
+}
+
+.funcao__fundo__titulo {
+    display: inline-block;
+    position: relative;
+    background-image: url(/imagem/pincel1.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 0 4px;
+    z-index: 0;
+}
+
+.funcao__texto {
+    text-align: center;
+    font-family: var(--fonte-segunda);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -2%;
+    padding: 24px 220px;
+    color: var(--cor-texto2);
+}
+
+.funcao__itens {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+}
+
+.funcao__itens__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.funcao__item__imagem {
+    margin-bottom: 30px;
+}
+
+.funcao__itens__titulo {
+    font-family: var(--fonte-segunda);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-texto2);
+}
+
+.funcao__itens__texto {
+    font-family: var(--fonte-segunda);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -2%;
+    line-height: 20px;
+    padding: 0 10%;
+    color: var(--cor-texto2);
+}
+
+@media screen and (max-width: 700px) {
+    .funcao{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+
+    .funcao__titulo {
+        text-align: center;
+        padding: 26px 18px;
+        background: none;
+        font-weight: 800;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .funcao__texto {
+        padding: 0 16px 40px 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--cor-texto5);
+    }
+
+    .funcao__itens {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 63px;
+    }
+
+    .funcao__item__imagem {
+        width: 160px;
+        height: 160px;
+    }
+
+    .funcao__itens__titulo {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .funcao__itens__texto {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
